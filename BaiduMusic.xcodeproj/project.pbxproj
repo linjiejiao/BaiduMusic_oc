@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B0BB4F61EF76B7D00C9F7B9 /* BaiduMusic.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0BB4F41EF76B7D00C9F7B9 /* BaiduMusic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0BB5041EF76B8C00C9F7B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0BB5031EF76B8C00C9F7B9 /* main.m */; };
+		8B0BB5071EF76B8C00C9F7B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0BB5061EF76B8C00C9F7B9 /* AppDelegate.m */; };
+		8B0BB50A1EF76B8C00C9F7B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0BB5091EF76B8C00C9F7B9 /* ViewController.m */; };
+		8B0BB50D1EF76B8C00C9F7B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B0BB50B1EF76B8C00C9F7B9 /* Main.storyboard */; };
+		8B0BB50F1EF76B8C00C9F7B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B0BB50E1EF76B8C00C9F7B9 /* Assets.xcassets */; };
+		8B0BB5121EF76B8C00C9F7B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B0BB5101EF76B8C00C9F7B9 /* LaunchScreen.storyboard */; };
+		8B0BB5191EF76BA500C9F7B9 /* BaiduMusicInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0BB5171EF76BA500C9F7B9 /* BaiduMusicInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0BB51A1EF76BA500C9F7B9 /* BaiduMusicInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0BB5181EF76BA500C9F7B9 /* BaiduMusicInfo.m */; };
+		8B0BB51D1EF7B1BD00C9F7B9 /* AlbumInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0BB51B1EF7B1BD00C9F7B9 /* AlbumInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0BB51E1EF7B1BD00C9F7B9 /* AlbumInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0BB51C1EF7B1BD00C9F7B9 /* AlbumInfo.m */; };
+		8B0BB5211EF7B1D800C9F7B9 /* ArtistInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0BB51F1EF7B1D800C9F7B9 /* ArtistInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0BB5221EF7B1D800C9F7B9 /* ArtistInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0BB5201EF7B1D800C9F7B9 /* ArtistInfo.m */; };
+		8B0BB5251EF7B4AB00C9F7B9 /* StringUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0BB5231EF7B4AB00C9F7B9 /* StringUtils.h */; };
+		8B0BB5261EF7B4AB00C9F7B9 /* StringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0BB5241EF7B4AB00C9F7B9 /* StringUtils.m */; };
+		8B0BB5291EF7B70300C9F7B9 /* BaiduMusicSearchResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0BB5271EF7B70300C9F7B9 /* BaiduMusicSearchResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0BB52A1EF7B70300C9F7B9 /* BaiduMusicSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0BB5281EF7B70300C9F7B9 /* BaiduMusicSearchResult.m */; };
+		8B0BB52D1EF7BB6800C9F7B9 /* BaiduMusicSearcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0BB52B1EF7BB6800C9F7B9 /* BaiduMusicSearcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0BB52E1EF7BB6800C9F7B9 /* BaiduMusicSearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0BB52C1EF7BB6800C9F7B9 /* BaiduMusicSearcher.m */; };
+		8B0BB52F1EF7C70900C9F7B9 /* BaiduMusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0BB4F11EF76B7D00C9F7B9 /* BaiduMusic.framework */; };
+		8B0BB5321EF7CBFC00C9F7B9 /* BaiduMusic.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B0BB4F11EF76B7D00C9F7B9 /* BaiduMusic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8B0BB5311EF7CBE000C9F7B9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8B0BB5321EF7CBFC00C9F7B9 /* BaiduMusic.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8B0BB4F11EF76B7D00C9F7B9 /* BaiduMusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BaiduMusic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B0BB4F41EF76B7D00C9F7B9 /* BaiduMusic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaiduMusic.h; sourceTree = "<group>"; };
+		8B0BB4F51EF76B7D00C9F7B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B0BB5001EF76B8C00C9F7B9 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B0BB5031EF76B8C00C9F7B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B0BB5051EF76B8C00C9F7B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8B0BB5061EF76B8C00C9F7B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8B0BB5081EF76B8C00C9F7B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8B0BB5091EF76B8C00C9F7B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8B0BB50C1EF76B8C00C9F7B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B0BB50E1EF76B8C00C9F7B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B0BB5111EF76B8C00C9F7B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B0BB5131EF76B8C00C9F7B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B0BB5171EF76BA500C9F7B9 /* BaiduMusicInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMusicInfo.h; sourceTree = "<group>"; };
+		8B0BB5181EF76BA500C9F7B9 /* BaiduMusicInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaiduMusicInfo.m; sourceTree = "<group>"; };
+		8B0BB51B1EF7B1BD00C9F7B9 /* AlbumInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumInfo.h; sourceTree = "<group>"; };
+		8B0BB51C1EF7B1BD00C9F7B9 /* AlbumInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumInfo.m; sourceTree = "<group>"; };
+		8B0BB51F1EF7B1D800C9F7B9 /* ArtistInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtistInfo.h; sourceTree = "<group>"; };
+		8B0BB5201EF7B1D800C9F7B9 /* ArtistInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtistInfo.m; sourceTree = "<group>"; };
+		8B0BB5231EF7B4AB00C9F7B9 /* StringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtils.h; sourceTree = "<group>"; };
+		8B0BB5241EF7B4AB00C9F7B9 /* StringUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringUtils.m; sourceTree = "<group>"; };
+		8B0BB5271EF7B70300C9F7B9 /* BaiduMusicSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMusicSearchResult.h; sourceTree = "<group>"; };
+		8B0BB5281EF7B70300C9F7B9 /* BaiduMusicSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaiduMusicSearchResult.m; sourceTree = "<group>"; };
+		8B0BB52B1EF7BB6800C9F7B9 /* BaiduMusicSearcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMusicSearcher.h; sourceTree = "<group>"; };
+		8B0BB52C1EF7BB6800C9F7B9 /* BaiduMusicSearcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaiduMusicSearcher.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B0BB4ED1EF76B7D00C9F7B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B0BB4FD1EF76B8C00C9F7B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B0BB52F1EF7C70900C9F7B9 /* BaiduMusic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B0BB4E71EF76B7D00C9F7B9 = {
+			isa = PBXGroup;
+			children = (
+				8B0BB4F31EF76B7D00C9F7B9 /* BaiduMusic */,
+				8B0BB5011EF76B8C00C9F7B9 /* test */,
+				8B0BB4F21EF76B7D00C9F7B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B0BB4F21EF76B7D00C9F7B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B0BB4F11EF76B7D00C9F7B9 /* BaiduMusic.framework */,
+				8B0BB5001EF76B8C00C9F7B9 /* test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B0BB4F31EF76B7D00C9F7B9 /* BaiduMusic */ = {
+			isa = PBXGroup;
+			children = (
+				8B0BB4F41EF76B7D00C9F7B9 /* BaiduMusic.h */,
+				8B0BB4F51EF76B7D00C9F7B9 /* Info.plist */,
+				8B0BB5171EF76BA500C9F7B9 /* BaiduMusicInfo.h */,
+				8B0BB5181EF76BA500C9F7B9 /* BaiduMusicInfo.m */,
+				8B0BB51B1EF7B1BD00C9F7B9 /* AlbumInfo.h */,
+				8B0BB51C1EF7B1BD00C9F7B9 /* AlbumInfo.m */,
+				8B0BB51F1EF7B1D800C9F7B9 /* ArtistInfo.h */,
+				8B0BB5201EF7B1D800C9F7B9 /* ArtistInfo.m */,
+				8B0BB5231EF7B4AB00C9F7B9 /* StringUtils.h */,
+				8B0BB5241EF7B4AB00C9F7B9 /* StringUtils.m */,
+				8B0BB5271EF7B70300C9F7B9 /* BaiduMusicSearchResult.h */,
+				8B0BB5281EF7B70300C9F7B9 /* BaiduMusicSearchResult.m */,
+				8B0BB52B1EF7BB6800C9F7B9 /* BaiduMusicSearcher.h */,
+				8B0BB52C1EF7BB6800C9F7B9 /* BaiduMusicSearcher.m */,
+			);
+			path = BaiduMusic;
+			sourceTree = "<group>";
+		};
+		8B0BB5011EF76B8C00C9F7B9 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				8B0BB5051EF76B8C00C9F7B9 /* AppDelegate.h */,
+				8B0BB5061EF76B8C00C9F7B9 /* AppDelegate.m */,
+				8B0BB5081EF76B8C00C9F7B9 /* ViewController.h */,
+				8B0BB5091EF76B8C00C9F7B9 /* ViewController.m */,
+				8B0BB50B1EF76B8C00C9F7B9 /* Main.storyboard */,
+				8B0BB50E1EF76B8C00C9F7B9 /* Assets.xcassets */,
+				8B0BB5101EF76B8C00C9F7B9 /* LaunchScreen.storyboard */,
+				8B0BB5131EF76B8C00C9F7B9 /* Info.plist */,
+				8B0BB5021EF76B8C00C9F7B9 /* Supporting Files */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		8B0BB5021EF76B8C00C9F7B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B0BB5031EF76B8C00C9F7B9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8B0BB4EE1EF76B7D00C9F7B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B0BB52D1EF7BB6800C9F7B9 /* BaiduMusicSearcher.h in Headers */,
+				8B0BB5191EF76BA500C9F7B9 /* BaiduMusicInfo.h in Headers */,
+				8B0BB5291EF7B70300C9F7B9 /* BaiduMusicSearchResult.h in Headers */,
+				8B0BB5251EF7B4AB00C9F7B9 /* StringUtils.h in Headers */,
+				8B0BB5211EF7B1D800C9F7B9 /* ArtistInfo.h in Headers */,
+				8B0BB51D1EF7B1BD00C9F7B9 /* AlbumInfo.h in Headers */,
+				8B0BB4F61EF76B7D00C9F7B9 /* BaiduMusic.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8B0BB4F01EF76B7D00C9F7B9 /* BaiduMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B0BB4F91EF76B7D00C9F7B9 /* Build configuration list for PBXNativeTarget "BaiduMusic" */;
+			buildPhases = (
+				8B0BB4EC1EF76B7D00C9F7B9 /* Sources */,
+				8B0BB4ED1EF76B7D00C9F7B9 /* Frameworks */,
+				8B0BB4EE1EF76B7D00C9F7B9 /* Headers */,
+				8B0BB4EF1EF76B7D00C9F7B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaiduMusic;
+			productName = BaiduMusic;
+			productReference = 8B0BB4F11EF76B7D00C9F7B9 /* BaiduMusic.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8B0BB4FF1EF76B8C00C9F7B9 /* test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B0BB5141EF76B8C00C9F7B9 /* Build configuration list for PBXNativeTarget "test" */;
+			buildPhases = (
+				8B0BB4FC1EF76B8C00C9F7B9 /* Sources */,
+				8B0BB4FD1EF76B8C00C9F7B9 /* Frameworks */,
+				8B0BB4FE1EF76B8C00C9F7B9 /* Resources */,
+				8B0BB5311EF7CBE000C9F7B9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = test;
+			productName = test;
+			productReference = 8B0BB5001EF76B8C00C9F7B9 /* test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B0BB4E81EF76B7D00C9F7B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = liangjiajian;
+				TargetAttributes = {
+					8B0BB4F01EF76B7D00C9F7B9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = RA62729XKZ;
+						ProvisioningStyle = Automatic;
+					};
+					8B0BB4FF1EF76B8C00C9F7B9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = RA62729XKZ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8B0BB4EB1EF76B7D00C9F7B9 /* Build configuration list for PBXProject "BaiduMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B0BB4E71EF76B7D00C9F7B9;
+			productRefGroup = 8B0BB4F21EF76B7D00C9F7B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B0BB4F01EF76B7D00C9F7B9 /* BaiduMusic */,
+				8B0BB4FF1EF76B8C00C9F7B9 /* test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B0BB4EF1EF76B7D00C9F7B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B0BB4FE1EF76B8C00C9F7B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B0BB5121EF76B8C00C9F7B9 /* LaunchScreen.storyboard in Resources */,
+				8B0BB50F1EF76B8C00C9F7B9 /* Assets.xcassets in Resources */,
+				8B0BB50D1EF76B8C00C9F7B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B0BB4EC1EF76B7D00C9F7B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B0BB5261EF7B4AB00C9F7B9 /* StringUtils.m in Sources */,
+				8B0BB5221EF7B1D800C9F7B9 /* ArtistInfo.m in Sources */,
+				8B0BB52E1EF7BB6800C9F7B9 /* BaiduMusicSearcher.m in Sources */,
+				8B0BB52A1EF7B70300C9F7B9 /* BaiduMusicSearchResult.m in Sources */,
+				8B0BB51A1EF76BA500C9F7B9 /* BaiduMusicInfo.m in Sources */,
+				8B0BB51E1EF7B1BD00C9F7B9 /* AlbumInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B0BB4FC1EF76B8C00C9F7B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B0BB50A1EF76B8C00C9F7B9 /* ViewController.m in Sources */,
+				8B0BB5071EF76B8C00C9F7B9 /* AppDelegate.m in Sources */,
+				8B0BB5041EF76B8C00C9F7B9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8B0BB50B1EF76B8C00C9F7B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B0BB50C1EF76B8C00C9F7B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B0BB5101EF76B8C00C9F7B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B0BB5111EF76B8C00C9F7B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B0BB4F71EF76B7D00C9F7B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B0BB4F81EF76B7D00C9F7B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B0BB4FA1EF76B7D00C9F7B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = RA62729XKZ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BaiduMusic/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ljj.BaiduMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8B0BB4FB1EF76B7D00C9F7B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = RA62729XKZ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BaiduMusic/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ljj.BaiduMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8B0BB5151EF76B8C00C9F7B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RA62729XKZ;
+				INFOPLIST_FILE = test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ljj.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B0BB5161EF76B8C00C9F7B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RA62729XKZ;
+				INFOPLIST_FILE = test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ljj.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B0BB4EB1EF76B7D00C9F7B9 /* Build configuration list for PBXProject "BaiduMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B0BB4F71EF76B7D00C9F7B9 /* Debug */,
+				8B0BB4F81EF76B7D00C9F7B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B0BB4F91EF76B7D00C9F7B9 /* Build configuration list for PBXNativeTarget "BaiduMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B0BB4FA1EF76B7D00C9F7B9 /* Debug */,
+				8B0BB4FB1EF76B7D00C9F7B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B0BB5141EF76B8C00C9F7B9 /* Build configuration list for PBXNativeTarget "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B0BB5151EF76B8C00C9F7B9 /* Debug */,
+				8B0BB5161EF76B8C00C9F7B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B0BB4E81EF76B7D00C9F7B9 /* Project object */;
+}

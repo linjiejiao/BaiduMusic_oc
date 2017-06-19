@@ -1,0 +1,6 @@
+framework module BaiduMusic {
+  umbrella header "BaiduMusic.h"
+
+  export *
+  module * { export * }
+}
